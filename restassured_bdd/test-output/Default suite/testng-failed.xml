@@ -6,7 +6,7 @@
       <class name="cucumber.Options.runAPIs">
         <methods>
           <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="0"/>
+          <include name="runScenario" invocation-numbers="4"/>
           <include name="tearDownClass"/>
         </methods>
       </class> <!-- cucumber.Options.runAPIs -->

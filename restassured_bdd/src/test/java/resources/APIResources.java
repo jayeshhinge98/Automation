@@ -2,9 +2,10 @@ package resources;
 
 public enum APIResources {
 	
-	ListUsers("/users?page=2"),
-	regresPost("/maps/api/place/get/json"),
-	deletePlaceAPI("/maps/api/place/delete/json");
+	ListUsers("/users"),
+	CreateUser("/users"),
+	RegisterUnsuccess("/register");
+	
 	private String resource;
 	
 	APIResources(String resource)
