@@ -6,10 +6,15 @@
       <class name="cucumber.Options.runAPIs">
         <methods>
           <include name="setUpClass"/>
-          <include name="runScenario" invocation-numbers="4"/>
+          <include name="runScenario" invocation-numbers="0 1 2 3 4"/>
           <include name="tearDownClass"/>
         </methods>
       </class> <!-- cucumber.Options.runAPIs -->
+      <class name="restassured_bdd.regresAPI.RegresAPITesting">
+        <methods>
+          <include name="test"/>
+        </methods>
+      </class> <!-- restassured_bdd.regresAPI.RegresAPITesting -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

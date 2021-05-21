@@ -6,7 +6,7 @@ Scenario: Verify list of users using list user API
 	Then status code should be 200
 	And "page" in response body is "2"
 	And "support.url" in response body is "https://reqres.in/#support-heading"
-#	And "data[0].email" in response body is "https://reqres.in/#support-heading"
+	And "data[0].email" in response body is "michael.lawson@reqres.in"
 #	And "<key>" in response body is "<value>"  #use Scenario Outline: instead of Scenario:
 		
 #Examples:

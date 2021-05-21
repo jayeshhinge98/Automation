@@ -11,24 +11,24 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 200 OK
-Date: Thu, 20 May 2021 08:01:01 GMT
+Date: Fri, 21 May 2021 11:32:57 GMT
 Content-Type: application/json; charset=utf-8
 Transfer-Encoding: chunked
 Connection: keep-alive
-X-Powered-By: Express
-Access-Control-Allow-Origin: *
-Etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
-Via: 1.1 vegur
+x-powered-by: Express
+access-control-allow-origin: *
+etag: W/"406-ut0vzoCuidvyMf8arZpMpJ6ZRDw"
+via: 1.1 vegur
 Cache-Control: max-age=14400
 CF-Cache-Status: HIT
-Age: 4453
-cf-request-id: 0a2a63de4700002e369abd5000000001
+Age: 2468
+cf-request-id: 0a304c435a00002e7082991000000001
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=3AJIAmOu6qDD%2F1KiV8gZkC9tTZ76%2FeNB4mFunAVNA6YtLLXKiXPOKZhg8kX7g3%2BpROJten8OAM8N4dvYB%2F3eYi%2FH87kzXiFJaBM%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=GQW0vP3fngbXG6%2Ff2Q5NXaIHZxMi6jpeDyBWKDboHBLwAtGmLigYayXVMgKrQo0woG2wuri2G5vhSa2TiYhM7p6ZjKGT7VrVJxs%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"report_to":"cf-nel","max_age":604800}
 Vary: Accept-Encoding
 Server: cloudflare
-CF-RAY: 652408dd383e2e36-BOM
+CF-RAY: 652d7cb22a452e70-BOM
 Content-Encoding: gzip
 alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
 
@@ -103,28 +103,28 @@ Body:
     "job": "Sr QA Engineer"
 }
 HTTP/1.1 201 Created
-Date: Thu, 20 May 2021 08:01:02 GMT
+Date: Fri, 21 May 2021 11:32:59 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 94
 Connection: keep-alive
 X-Powered-By: Express
 Access-Control-Allow-Origin: *
-Etag: W/"5e-7bNUqZlnjoVgnSpEJGHNUunxtOw"
+Etag: W/"5e-JOOywl6L4rMeLuTsznq7Tm9Zn1w"
 Via: 1.1 vegur
 CF-Cache-Status: DYNAMIC
-cf-request-id: 0a2a63e2d300002e36ccac9000000001
+cf-request-id: 0a304c493b00002e7086128000000001
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=uCMmPawBFHunlLmTEP62SL8deWwMm%2BsUsh69k9vZq8mIPNAVNrt8RknAJxd4887LVEONhfDe5acSKCxGMHk0TDXjHhYH%2BOdnNNo%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=Q8uwt4pFuSN6DZVuvmZZzUbFHsCr%2Bg3zWjK7a8zJ4MIHlb%2F%2BCoDNuHzOvcq8qEi0bv0Bd6uGBRrWu%2BJRzQzwPfJjziBEphVyR3U%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 652408e48aed2e36-BOM
+CF-RAY: 652d7cbb98572e70-BOM
 alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
 
 {
     "name": "mark henry",
     "job": "Sr QA Engineer",
-    "id": "653",
-    "createdAt": "2021-05-20T08:01:02.418Z"
+    "id": "506",
+    "createdAt": "2021-05-21T11:32:59.074Z"
 }
 Request method:	GET
 Request URI:	https://reqres.in/api/users?id=23
@@ -139,7 +139,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 404 Not Found
-Date: Thu, 20 May 2021 08:01:03 GMT
+Date: Fri, 21 May 2021 11:33:00 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 2
 Connection: keep-alive
@@ -149,14 +149,14 @@ Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
 Via: 1.1 vegur
 Cache-Control: max-age=14400
 CF-Cache-Status: HIT
-Age: 37
-cf-request-id: 0a2a63e61b00002e36b4272000000001
+Age: 35
+cf-request-id: 0a304c4ed700002e7097380000000001
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=DSFchp4nSdXQkXx5qZniR63Nqfl%2FmvYnmTs6MtMYyFyYXEAzCafeugKwBXTbWLvEeg0A%2FnmP2%2BgWXk0dc85bVVCIakSGYjsMNzo%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=TOY6Sy3Uk%2FGf0tJKElD4fN1kGvjunkK36Zkw0IlL%2B8LYk8OFfYlKAKJbwFKh7MeQ8wi0b%2BdjFd6TGUMOUbF0SSR%2F34AMsmUojW4%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"report_to":"cf-nel","max_age":604800}
 Vary: Accept-Encoding
 Server: cloudflare
-CF-RAY: 652408e9cae12e36-BOM
+CF-RAY: 652d7cc48f492e70-BOM
 alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
 
 {
@@ -175,7 +175,7 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:			<none>
 HTTP/1.1 204 No Content
-Date: Thu, 20 May 2021 08:01:03 GMT
+Date: Fri, 21 May 2021 11:33:01 GMT
 Content-Length: 0
 Connection: keep-alive
 X-Powered-By: Express
@@ -183,12 +183,12 @@ Access-Control-Allow-Origin: *
 Etag: W/"2-vyGp6PvFo4RvsFtPoIWeCReyIC8"
 Via: 1.1 vegur
 CF-Cache-Status: DYNAMIC
-cf-request-id: 0a2a63e82e00002e36ccb1d000000001
+cf-request-id: 0a304c519100002e70973b4000000001
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=GXCHoCTsVLT%2FnOmgeLCqj40RLddXDoDRZBIaeUUPC0gI%2FgYz%2BbOn1bKhi05BFxHAbbPkDZtvslUuJmynKOoJPgorj2zsCNu%2BMDw%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=T7xCHvgTb%2Bi4U8EI1ES4MPjetVgyIUOXczbKWONPIFxaOGLSzpdLjTCB%2B3nFyjbvQPZGbnBcpQQM33bPPgJ%2B5Pps0H9%2Faf3HFtw%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 652408ed1fcc2e36-BOM
+CF-RAY: 652d7cc8edf02e70-BOM
 alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
 Request method:	POST
 Request URI:	https://reqres.in/api/register
@@ -206,7 +206,7 @@ Body:
     "email": "sydney@fife"
 }
 HTTP/1.1 400 Bad Request
-Date: Thu, 20 May 2021 08:01:04 GMT
+Date: Fri, 21 May 2021 11:33:02 GMT
 Content-Type: application/json; charset=utf-8
 Content-Length: 28
 Connection: keep-alive
@@ -215,12 +215,12 @@ Access-Control-Allow-Origin: *
 Etag: W/"1c-NmpazMScs9tOqR7eDEesn+pqC9Q"
 Via: 1.1 vegur
 CF-Cache-Status: DYNAMIC
-cf-request-id: 0a2a63eb1900002e36091b3000000001
+cf-request-id: 0a304c553400002e70b71b3000000001
 Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=f3A1%2BkVijrtKQ5Wby5JOWqnj3d8OcGNgAtKUzdtm6j7w2UPjwEfxHQBzslVkX37SCDT%2FlVBGb%2BhjbHpLm6kZnlIjeHeACuyCBrU%3D"}],"group":"cf-nel","max_age":604800}
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report?s=Zzueuzrwy8CUPtdFWmPPICXg528k9DpxVzCvH3WF%2FEq2ko9oO9up0VMBYWw2FMdVg5k3pPBSmjMy1K7WGgbnYIIvUOVXAJkkluU%3D"}],"group":"cf-nel","max_age":604800}
 NEL: {"report_to":"cf-nel","max_age":604800}
 Server: cloudflare
-CF-RAY: 652408f1cf4a2e36-BOM
+CF-RAY: 652d7ccebefc2e70-BOM
 alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400
 
 {
