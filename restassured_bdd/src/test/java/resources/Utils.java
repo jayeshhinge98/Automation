@@ -14,19 +14,21 @@ import io.restassured.path.json.JsonPath;
 import io.restassured.response.Response;
 import io.restassured.specification.RequestSpecification;
 
-public class Utils{
+public class Utils {
 
 	public static RequestSpecification req;
 
-	public String getValueForKey(Response res, String key) {
-		JsonPath jp = res.jsonPath();
+	public String getValueForKey(Response response, String key) {
+		JsonPath jp;
+		jp = response.jsonPath();
 		return jp.get(key).toString();
+
 	}
 
 	public RequestSpecification requestSpecification() throws IOException {
 		if (req == null) {
 			PrintStream log = new PrintStream(new FileOutputStream("logging.txt"));
-			req = new RequestSpecBuilder().setBaseUri(getGlobalValue("baseUrl")).addQueryParam("key", "qaclick123")
+			req = new RequestSpecBuilder().setBaseUri(getGlobalValue("baseUrl"))
 					.addFilter(RequestLoggingFilter.logRequestTo(log))
 					.addFilter(ResponseLoggingFilter.logResponseTo(log)).setRelaxedHTTPSValidation()
 					.setContentType(ContentType.JSON).build();
@@ -42,6 +44,7 @@ public class Utils{
 		prop.load(fis);
 		return prop.getProperty(key);
 	}
+
 	public static String getResources(String resourceType) {
 		return APIResources.valueOf(resourceType).getResource();
 	}
