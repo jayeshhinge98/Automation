@@ -25,6 +25,7 @@ Scenario Outline: Verify user created successfully
 Examples:
 	|name  | job |
 	|mark henry | Sr QA Engineer |	
+	
 
 Scenario: Verify when user not found then it gives 404
 	Given "id" "23" is given as parameter
